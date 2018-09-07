@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+                "src/assets/js/jquery-2.2.3.min.js",
+                "src/assets/js/bootstrap.js",
+                "src/assets/js/jquery.vide.min.js",
+                "src/assets/js/lightbox-plus-jquery.min.js"
+                
+            ]
           },
           "configurations": {
             "production": {

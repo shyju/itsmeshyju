@@ -1,0 +1,277 @@
+<div class="top-nav">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar"> 
+						<li><a href="index.html" class="w3ls-hover"><span data-letters="Home">Home</span></a></li>
+						<li><a href="#"  (click)="openModal(about)" data-toggle="modal" data-target="#about" data-backdrop="false" class="w3ls-hover"><span data-letters="About">About </span></a></li>
+						<li><a href="#" (click)="openModal(skills) "data-toggle="modal" data-target="#skill" data-backdrop="false" class="w3ls-hover"><span data-letters="Skills">Skills</span></a></li>
+						<li><a href="#" (click)="openModal(experience)" data-toggle="modal" data-target="#experience" data-backdrop="false" class="w3ls-hover"><span data-letters="Experience">Experience </span></a></li>
+						<li><a href="#" (click)="openModal(education)" data-toggle="modal" data-target="#education" data-backdrop="false" class="w3ls-hover"><span data-letters="Education">Education </span></a></li>
+						<li><a href="#" (click)="openModal(contact)" data-toggle="modal" data-target="#contact" data-backdrop="false" class="w3ls-hover"><span data-letters="Contact">Contact </span></a></li> 
+<li><a class="w3ls-icon" href="https://drive.google.com/open?id=0B2XKU6wyea5PSnVPazZjeElpbmc"><span class="glyphicon glyphicon-save"></span></a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+  </div>	
+  
+  <ng-template #about>
+    <!-- <app-about></app-about> -->
+    <div class="modal-about" id="about" tabindex="-1" role="dialog">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="modalRef.hide()"  aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">ABOUT ME</h4>
+      </div>
+      <div class="modal-body modal-spa">
+        <div class="about">
+          <div class="col-md-4 about-left ">
+            <img src="../../assets/images/img1.jpg" class="img-responsive" alt="" />
+          </div>
+          <div class="col-md-8 about-right wthree">
+            <h3>Hi, i'm <span>Shyju S. </span></h3>
+            <h4>Software Developer & Freelancer. </h4>
+            <ul class="address">
+              <li>
+                <ul class="agileits-address-text ">
+                  <li><b>D.O.B</b></li>
+                  <li>15-04-1991</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="agileits-address-text">
+                  <li><b>PHONE </b></li>
+                  <li>+91 9539394104</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="agileits-address-text">
+                  <li><b>ADDRESS </b></li>
+                  <li>Akshara, Parayanathu Junction, Oachira, Dist. Alappuzha, Kerala</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="agileits-address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li><a href="mailto:example@mail.com"> shyju.vishu@gmail.com</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="agileits-address-text">
+                  <li><b>WEBSITE </b></li>
+                  <li><a href="http://w3layouts.com">www.itsmeshyju.com</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="about-text agileits-w3layouts">
+            <p>Software Developer and a Freelancer who loves to code. Hands on knowledge in Java, Android Programming,
+              Angular 5 and PHP. Strong engineering professional with a Master's Degree focused in computer applications 
+              from Cochin University of Science and Technology.
+            </p>
+            <!-- <p class="agile-br"> Aliquam aliquet sapien quis mauris semper suscipit. Maecenas pharetra dapibus posuere.
+              Praesent odio sem, varius quis dolor vel, maximus dapibus mi. Pellentesque mattis mauris neque. Nam aliquam
+              turpis ante, at cursus massa ullamcorper ut </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #skills>
+    <div class="modal-skills" id="skill" tabindex="-1" role="dialog">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="modalRef.hide()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">My Skills</h4>
+      </div>
+      <div class="modal-body modal-spa">
+        <div class="skills">
+          <div class="col-md-6 bar-grids">
+            <h4><span class="glyphicon glyphicon-cog"></span> Technical Skills </h4>
+            <h6>Android App Development <span> 80% </span></h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" style="width: 80%">
+              </div>
+            </div>
+            <h6>Android Java Programming<span> 70% </span></h6>
+            <div class="progress  w3-agile">
+              <div class="progress-bar progress-bar-striped active" style="width: 70%">
+              </div>
+            </div>
+            <h6>Ionic 3<span>90% </span></h6>
+            <div class="progress  w3-agile">
+              <div class="progress-bar progress-bar-striped active" style="width: 90%">
+              </div>
+            </div>
+            <h6>Angular 5 <span> 75% </span></h6>
+            <div class="progress  w3-agile">
+              <div class="progress-bar progress-bar-striped active" style="width: 75%">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 bar-grids  w3-agile">
+            <h4><span class="glyphicon glyphicon-briefcase"></span> Professional Skills </h4>
+            <h6>Communication<span> 85% </span></h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" style="width: 85%">
+              </div>
+            </div>
+            <h6>Social media marketing<span> 95% </span></h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" style="width: 95%">
+              </div>
+            </div>
+            <h6>Leadership<span>90% </span></h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" style="width: 90%">
+              </div>
+            </div>
+            <h6>Confidence<span>86% </span></h6>
+            <div class="progress prgs-w3agile-last">
+              <div class="progress-bar progress-bar-striped active" style="width: 86%">
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #experience>
+      <div class="  modal-experience" id="experience" tabindex="-1" role="dialog">
+            <div class="modal-header">
+              <button type="button" class="close" (click)="modalRef.hide()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">My Experience</h4>
+            </div>
+            <div class="modal-body modal-spa">
+              <div class="experience w3-agileits-info">
+                <div class="experience-grids">
+                  <div class="experience-left">
+                    <h3>2017 - Present </h3>
+                    <h5>Eglobe IT Solutions </h5>
+                  </div>
+                  <div class="experience-right">
+                    <h4>Software Developer</h4>
+                    <p>Working as a Software Developer for past one year. Handled projects in Android App Development.
+                      Now working in Ionic 3 Framework for Hybrid Mobile App Development in Angular 5.
+                    </p>
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+                <div class="experience-grids experience-grids-btm">
+                  <div class="experience-left">
+                    <h3>2017(2 months)</h3>
+                    <h5>Cochin University College of Engineering, Kuttanad </h5>
+                  </div>
+                  <div class="experience-right">
+                    <h4>Guest Lecturer</h4>
+                    <p>Worked as a Guest Lecture for a short span of two months, handling classes of MCA students. Took
+                      lectures on Analysis and Design of Algorithm and Crytography.
+                    </p>
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+                <div class="experience-grids w3-agileits">
+                  <div class="experience-left">
+                    <h3>2016 - 2017</h3>
+                    <h5>Sri Sri Ravisankar Vidya Mandir </h5>
+                  </div>
+                  <div class="experience-right">
+                    <h4>Post Graduate Teacher</h4>
+                    <p>Worked as a Adhoc Post Graduate Teacher for more than a year, handling computer classes.</p>
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  </ng-template>
+
+  <ng-template #education>
+    <div class="modal-experience" id="education" tabindex="-1" role="dialog">
+          <div class="modal-header w3layouts">
+            <button type="button" class="close" (click)="modalRef.hide()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">My Qualification</h4>
+          </div>
+          <div class="modal-body modal-spa">
+            <div class="experience">
+              <div class="experience-grids">
+                <div class="experience-left">
+                  <h3>2015<span>(3 Years Course)</span> </h3>
+                  <h5> CUSAT</h5>
+                </div>
+                <div class="experience-right">
+                  <h4>Master of Computer Applications</h4>
+                  <p>CGPA - 7.83</p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              <div class="experience-grids experience-grids-btm">
+                <div class="experience-left">
+                  <h3>2012<span>(3 Years Course)</span></h3>
+                  <h5> MG UNIVERSITY</h5>
+                </div>
+                <div class="experience-right">
+                  <h4>Bachelor of Computer Applications</h4>
+                  <p>Percentage - 67.14 %</p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </ng-template>
+
+  <ng-template #contact>
+    <div class="modal-contact" id="contact" tabindex="-1" role="dialog">
+          <div class="modal-header">
+            <button type="button" class="close" (click)="modalRef.hide()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Get In Touch</h4>
+          </div>
+          <div class="modal-body modal-spa">
+            <div class="contact">
+              <div class="contact-w3lsrow">
+                <div class="col-md-6 contact-left w3-agileits">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555"
+                    allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 contact-right">
+                  <form (submit)="sendMail()">
+                    <div class="styled-input agile-styled-input-top">
+                      <input type="text" name="Name" required="">
+                      <label>Name</label>
+                      <span></span>
+                    </div>
+                    <div class="styled-input">
+                      <input type="text" name="Email" required="">
+                      <label>Email</label>
+                      <span></span>
+                    </div>
+                    <div class="styled-input">
+                      <input type="text" name="Subject" required="">
+                      <label>Subject</label>
+                      <span></span>
+                    </div>
+                    <div class="styled-input">
+                      <textarea name="Message" required=""></textarea>
+                      <label>Message</label>
+                      <span></span>
+                    </div>
+                    <input type="submit" value="SEND">
+                  </form>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </ng-template>

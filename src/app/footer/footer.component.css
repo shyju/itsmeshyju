@@ -1,0 +1,18 @@
+.footer {
+  padding: 2em 0;
+  text-align: center;
+  background: #1F1F1F;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.footer p a {
+  color: #1dadd3;
+}
+
+.footer p a:hover {
+  color: #fff;
+}

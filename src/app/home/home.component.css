@@ -1,0 +1,35 @@
+.video {
+  background: url(./../../assets/images/cv.jpg)no-repeat;
+  background-position: 0px 0px;
+  text-align: left;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.banner-text {
+  margin: 22em 0 10em;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.72);
+  display: inline-block;
+  padding: 4em;
+}
+
+.banner-text h1 {
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: 900;
+}
+
+.banner-text h6 {
+  font-size: 1.2em;
+  color: #cac7c8;
+  margin-top: 1em;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+
+.video iframe {
+  width: 100%;
+  min-height: 15em;
+  border: 1px solid #b3b3b3;
+}
